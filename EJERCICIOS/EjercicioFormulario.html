@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de casillas</title>
+</head>
+
+<body>
+
+    <h1>Completa el Formulario</h1>
+
+    <label for="Nombre:">Nombre:</label>
+    <input type="text" required><br>
+    <label for="Apellido:">Apellido:</label>
+    <input type="text" required><br>
+    <label for="Email">Correo Electrónico:</label><br>
+    <input type="email" placeholder="usuario@gmail.com" required>
+    <br><br>
+    <form action="">
+
+        <fieldset>
+
+            <legend>Género</legend>
+            <input type="radio" name="género" id="Masculino" value="Masculino">
+            <label for="Masculino">Masculino</label> <br>
+
+            <input type="radio" name="género" id="Femenino" value="Femenino">
+            <label for="Femenino">Femenino</label> <br>
+
+            <input type="radio" name="género" id="Otro" value="Otro">
+            <label for="Otro">Otro</label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferencias de Comida</legend>
+            <input type="radio" name="comida" id="Pizza" value="Pizza">
+            <label for="Pizza">Pizza</label> <br>
+
+            <input type="radio" name="comida" id="Hamburguesa" value="Hamburguesa">
+            <label for="Hamburguesa">Hamburguesa</label> <br>
+
+            <input type="radio" name="comida" id="Ensalada" value="Ensalada">
+            <label for="Ensalada">Ensalada</label> <br>
+
+            <input type="radio" name="comida" id="Sushi" value="Sushi">
+            <label for="Sushi">Sushi</label> <br>
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+
+</html>
