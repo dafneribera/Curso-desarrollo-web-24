@@ -12,7 +12,7 @@
 <form>
 
     <label for="Nombre:">*Nombre:</label><br>
-    <input type="text" required><br>
+    <input type="text" maxlength="(10)"><br>
     <label for="dni">*DNI:</label><br>
     <input type="text" pattern="[0-9]{8}[A-Za-Z]"><br>
     <label for="Teléfono">*Teléfono:</label><br>
@@ -27,16 +27,17 @@
     <input type="radio" name="género" id="Femenino" value="Femenino">
     <label for="Femenino">Femenino</label> <br>
 </fieldset>
+<fieldset>
 <legend>Interéses:</legend>
-<input type="radio" name="Deporte" id="Deporte" value="Deporte">
+<input type="checkbox" name="Deporte" id="Deporte" value="Deporte">
 <label for="Deporte">Deporte</label> <br>
 
-<input type="radio" name="Música" id="Música" value="Música">
+<input type="checkbox" name="Música" id="Música" value="Música">
 <label for="Música">Música</label> <br>
 
-<input type="radio" name="Lectura" id="Lectura" value="Lectura">
+<input type="checkbox" name="Lectura" id="Lectura" value="Lectura">
 <label for="Lectura">Lectura</label> <br>
-
+</fieldset>
 <label for="archivo"></label>
 <input type="file" id="archivo" name="archivo"><br><br>
 
