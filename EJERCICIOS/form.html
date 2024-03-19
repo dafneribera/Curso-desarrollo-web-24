@@ -15,13 +15,13 @@
         <label for="Apellido:">Apellido:</label>
         <input type="text" required><br>
         <label for="DNI:">DNI:</label>
-        <input type="text" pattern="DNI" required><br>
+        <input type="text" pattern="[0-9]{8}[A-Za-Z]" title="Introduce un DNI valido con 8 digitos seguidos de una letra "><br>
         <label for="Email">Correo Electrónico:</label>
         <input type="email" placeholder="usuario@gmail.com" required><br>
         <label for="Edad:">Edad</label>
         <input type="number" required><br>
         <label for="Teléfono:">Teléfono:</label>
-        <input type="tel" required>
+        <input type="tel" pattern="[0-9]{9}">
         <br>
 
         <button type="submit">Enviar</button>
