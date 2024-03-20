@@ -14,9 +14,9 @@
     <label for="Nombre:">*Nombre:</label><br>
     <input type="text" maxlength="(10)"><br>
     <label for="dni">*DNI:</label><br>
-    <input type="text" pattern="[0-9]{8}[A-Za-Z]"><br>
+    <input type="text" pattern="[0-9]{8}[A-Za-Z]" title="Introduce un DNI válido(8 digitos seguidos de una letra)"><br>
     <label for="Teléfono">*Teléfono:</label><br>
-<input type="text" pattern="[0-9]{9}">
+<input type="text" pattern="[0-9]{9}" title="Introduce 8 digitos válidos">
 
 <fieldset>
 
@@ -41,6 +41,9 @@
 <br>
 <label for="archivo"></label>
 <input type="file" id="archivo" name="archivo"><br><br>
+
+<label for="consulta">Sugerencias</label><br>
+<textarea name="consulta" id="consulta" cols="60" rows="10"></textarea>
 
 <button type="submit">Enviar</button>
 
