@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <h1>Alineamiento con Flexbox</h1>
+
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <p>
+        El contenedor se convierte en <b>flexible</b> al asignarle la propiedad <b>display: flex</b>. 
+    </p>
+
+    <h2>flex vertical</h2>
+    <div class="flex-container vertical">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    
+</body>
+</html>
