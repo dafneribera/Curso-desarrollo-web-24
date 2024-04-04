@@ -7,43 +7,65 @@
     <title>Repaso Formulario</title>
 </head>
 
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+        padding: 0 15px;
+        background-color: pink;
+        border-radius: 5%;
+    }
+
+    body {
+        background-color: palevioletred;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: 100vh;
+    }
+</style>
+
 <body>
 
-    <form>
+    <form action="" method="get">
 
         <h1>Formulario</h1>
 
-        <label for="Nombre">Nombre</label>
+        <label for="Nombre">Nombre:</label>
         <input type="text" maxlength="10" autofocus required><br>
 
-        <label for="Email">Correo Electrónico</label>
+        <label for="Email">Correo Electrónico:</label>
         <input type="email" placeholder="usuario@gmail.com" required><br>
 
-        <label for="URL">URL</label>
+        <label for="URL">URL:</label>
         <input type="url" placeholder="Escribe la URL de tu página web personal"><br>
 
-        <label for="Tiempo">Tiempo</label>
+        <label for="Tiempo">Tiempo:</label>
         <input type="time" placeholder=""><br>
 
-        <label for="Fecha y Hora">Fecha y Hora</label>
+        <label for="Fecha y Hora">Fecha y Hora:</label>
         <input type="datetime" placeholder=""><br>
 
-        <label for="Mes">Mes</label>
+        <label for="Mes">Mes:</label>
         <input type="month"><br>
 
-        <label for="Semana">Semana</label>
+        <label for="Semana">Semana:</label>
         <input type="week"> <br>
 
-        <label for="Número">Número</label>
+        <label for="Número">Número:</label>
         <input type="number" min="-10" max="10"><br>
 
-        <label for="Teléfono">Teléfono</label>
+        <label for="Teléfono">Teléfono:</label>
         <input type="tel"><br>
 
-        <label for="Término de búsqueda"></label>
+        <label for="Término de búsqueda">Término de búsqueda:</label>
         <input type="search"><br>
 
-        <label for="Color favorito">Color favorito</label>
+        <label for="Color favorito">Color favorito:</label>
         <input type="color"><br>
 
         <button type="submit">Enviar</button>
