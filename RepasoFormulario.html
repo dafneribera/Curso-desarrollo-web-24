@@ -8,37 +8,32 @@
 </head>
 
 <style>
-    h1 {
+
+        h1 {
         text-align: center;
+    }
+  body {
+        background: pink;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        /* animation: fondo 10s infinite alternate; */
+        animation: fondo 10s infinite alternate;
+        margin: 0;
     }
 
     form {
-        text-align: center;
-        padding: 0 15px;
-        background-color: pink;
-        border-radius: 5%;
-    }
-
-    body {
-        background-color: palevioletred;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        height: 100vh;
-        animation: fondo 10s infinite alternate;
-        animation: fondo 10s infinite alternate;
+        background-color: rgba(0, 0, 0, 0.129);
+        padding: 15px;
+        border-radius: 20px;
     }
 
     @keyframes fondo {
-        from {
-            background-color: rgb(233, 67, 133);
-        }
-
-        to {
-            background-color: rgb(176, 132, 139);
-        }
+        from {background-color: white}
+        to {background-color: deeppink}
     }
+
 </style>
 
 <body>
