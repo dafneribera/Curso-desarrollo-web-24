@@ -24,7 +24,7 @@
 <input type="password" maxlength="20"><br>
 
 <label for="DNI">DNI:</label><br>
-<input type="dni" pattern=""><br><br>
+<input type="dni" pattern="[0-9]{8}[A-Za-z]{1}" title="Introduce un DNI válido (8 dígitos seguidos de una letra)." required><br><br>
 
 <label for="archivo">Subir foto DNI:</label>
 <input type="file" id="archivo" name="archivo"><br><br>
