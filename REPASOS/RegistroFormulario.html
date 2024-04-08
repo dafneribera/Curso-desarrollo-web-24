@@ -12,22 +12,22 @@
 <form action="mailto:@example.com" method="post">
 
 <label for="Nombre">Nombre:</label><br>
-<input type="text" maxlength="10"><br>
+<input type="text" id="Nombre" name="Nombre" maxlength="10"><br>
 
 <label for="Apellidos">Apellidos:</label><br>
-<input type="text" maxlength="15"><br>
+<input type="text" id="Apellidos" name="Apellidos" maxlength="20" size="40"><br>
 
 <label for="Provincia">Provincia:</label><br>
-<input type="text" maxlength="10"><br>
+<input type="text" id="Provincia" name="Provincia"><br>
 
 <label for="Contrasena">Contraseña:</label><br>
-<input type="password" maxlength="20"><br>
+<input type="password" id="Contrasena" name="Contrasena"><br>
 
-<label for="DNI">DNI:</label><br>
-<input type="dni" pattern="[0-9]{8}[A-Za-z]{1}" title="Introduce un DNI válido (8 dígitos seguidos de una letra)." required><br><br>
+<label for="dni">DNI:</label><br>
+<input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Za-z]{1}" title="Introduce un DNI válido (8 dígitos seguidos de una letra)." size="10" required><br><br>
 
-<label for="archivo">Subir foto DNI:</label>
-<input type="file" id="archivo" name="archivo"><br><br>
+<label for="foto_dni">Subir foto DNI:</label>
+<input type="file" id="foto_dni" name="foto_dni"><br><br>
 
 <input type="checkbox" name="musica" id="musica" value="musica" checked>
 <label for="musica">Suscribirse a la newsLetter</label> <br><br>
