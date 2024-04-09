@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Formulario</title>
+</head>
+<body>
+    
+<h1>Rellena tu CV</h1>
+
+<form action="mailto:@example.com" method="post">
+
+    <label for="Nombre">Nombre</label><br>
+    <input type="text" id="Nombre" name="Nombre" maxlength="30"><br>
+    
+    <label for="Apellidos">Apellidos</label><br>
+    <input type="text" id="Apellidos" name="Apellidos" maxlength="80" size="40"><br>
+
+    <label for="Contrasena">Contraseña</label><br>
+    <input type="password" id="Contrasena" name="Contrasena" maxlength="10"><br>
+    
+    <label for="dni">DNI</label><br>
+    <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Za-z]{1}" title="Introduce un DNI válido (8 dígitos seguidos de una letra)." size="10" required><br><br>
+
+    <label>Sexo</label><br>
+
+    <input type="radio" name="sexo" value="hombre" checked>
+    <label>Hombre</label><br>
+    
+    <input type="radio" name="sexo" value="mujer">
+    <label>Mujer</label><br><br>
+
+    <label>Incluir mi foto</label>
+    <input type="text">
+    <button type="submit">Elegir...</button><br><br>
+
+
+    <input type="checkbox" name="musica" id="musica" value="musica" checked>
+<label for="musica">Suscribirme al boletín de novedades</label> <br><br>
+
+<button type="submit">Guardar cambios</button> 
+<button type="submit">Borrar los datos introducidos</button>
+
+
+
+
+
+</form>
+
+
+
+</body>
+</html>
