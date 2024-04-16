@@ -1,63 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 10</title>
-</head>
+    <title>Menú de navegacion</title>
+    <style>
 
-<style>
-    * {
-        padding: 0;
-        margin: 0;
-        text-decoration: none;
-        list-style: none;
-    }
 
-    #site-header img {
-        width: 20%;
-        height: 20%;
-    }
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+        }
 
-    #site-header {
+
+        #site-header img{
+            width: 50px;
+        }
+
+
+        #site-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 50px;
+        }
+     
+        #site-nav ul {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #332e2e;
-        padding: 10px 50px;
-    }
-
-
-    #site-nav ul {
-        display: flex;
-
-    }
-
-
-    #site-nav ul li a {
+        }
+   
+       #site-nav ul li a{
         color: white;
-        display: inline-block;
         padding: 10px 20px;
-        background-color: rgb(49, 148, 143);
+        background-color: rgb(19, 148, 149);
+        display: inline-block;
         margin: 0px 10px;
-    }
-</style>
-
+       }
+       
+    </style>
+</head>
 <body>
-
     <header id="site-header">
-        <a href=""><img src="../PELUQUERÍA/img/logo.png"></a>
+        <a href="#"><img src="../PELUQUERÍA/img/logo.png" alt=""></a>
         <nav id="site-nav">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
+                <li>  <a href="#">Inicio</a></li>
+                <li>  <a href="#">Acerca de</a></li>
                 <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
+                 <li> <a href="#">Contacto</a></li>
             </ul>
         </nav>
-    </header>
-
+      </header>
 </body>
-
 </html>
+
