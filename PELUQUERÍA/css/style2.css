@@ -50,6 +50,33 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+#site-main h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#site-main h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+#site-main article p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#site-main article {
+    background-color: #fff;
+    margin: 10px;
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
 #site-main section {
     margin-bottom: 50px;
     background-color: #ecadad;
