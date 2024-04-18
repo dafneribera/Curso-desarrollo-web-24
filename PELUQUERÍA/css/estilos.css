@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+#site-header p {
+    color: white;
+}
+
+#site-header img{
+    width: 50px;
+}
+
+
+#site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 50px;
+}
+
+#site-nav ul {
+display: flex;
+}
+
+#site-nav ul li a{
+color: white;
+padding: 10px 20px;
+display: inline-block;
+margin: 0px;
+}
