@@ -68,6 +68,11 @@
     margin-bottom: 20px;
 }
 
+#site-main article a {
+    color: #ecadad;
+    font-weight: bold;
+}
+
 #site-main article {
     background-color: #fff;
     margin: 10px;
@@ -84,9 +89,32 @@
     padding: 50px;
 }
 
+#site-main section div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Flex para alinear las a con margin-top:auto  */
+
+#site-main section blockquote {
+    background-color: #fff;
+    padding: 20px;
+    border-left: 5px solid #000000;
+    margin-bottom: 20px;
+}
+
+/* #site-main blockquote footer {
+    margin-top: 10px;
+} */
+
+#site-main section cite, #site-main section p {
+    /* font-style: italic; */
+    color: #333;
+}
+
     #site-footer {
-        background-color: white;
-        color: black;
+        background-color: black;
+        color: white;
         padding: 20px;
         text-align: center;
     }
