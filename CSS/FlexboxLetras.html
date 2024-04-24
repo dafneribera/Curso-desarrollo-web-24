@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letras con flexbox</title>
+    <link rel="stylesheet" href="flex-letras.css">
+</head>
+<style>
+    /* Ponemos la palabra en horizontal */
+body {
+    display: flex;
+    justify-content: space-around;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    /* width: 260px; */
+}
+.blue-container {
+    display: flex;
+    border: 3px solid skyblue;
+    height: 65px;
+}
+.blue-container div {
+    border: 3px solid black;
+    height: 60px;
+    width: 60px;
+    background-color: orange;
+    margin: 0 3px;
+}
+.blue-container .invisible {
+    /* visibility: hidden; */
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+/* Letra Z */
+.primer-contenedor .segunda-fila,.primer-contenedor .tercera-fila {
+    justify-content: center;
+}
+/* Letra A */
+.segundo-contenedor .segunda-fila, .segundo-contenedor .cuarta-fila {
+    justify-content: space-between;
+}
+/* Letra O */
+.cuarto-contenedor .segunda-fila, .cuarto-contenedor .tercera-fila {
+    justify-content: space-between;
+}
+
+/* Hacemos desaparecer los bordes */
+* {
+    border: none !important;
+}
+</style>
+<body>
+    <div class="flex-container primer-contenedor">
+        <div class="blue-container primera-fila">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="blue-container segunda-fila">
+            <div class="invisible"></div>
+            <div></div>
+        </div>
+        <div class="blue-container tercera-fila">
+            <div></div>
+            <div class="invisible"></div>
+        </div>
+        <div class="blue-container cuarta-fila">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    
+</body>
+</html>
