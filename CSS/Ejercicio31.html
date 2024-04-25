@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
 </head>
 
 <style>
-        *{
+    * {
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
@@ -16,34 +17,51 @@
     }
 
     #site-header {
-    background-color: firebrick;
-   }
+        background-color: firebrick;
+    }
 
-   #site-header nav ul a {
-    color: white;
-    padding: 15px;
-   }
+    #site-header nav ul a {
+        color: white;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
 
+    /* Estilos para el hover */
+    #site-header nav ul a:hover {
+        background-color: black;
+    }
+
+    #site-header2 li ul {
+        display: none;
+    }
+
+    #site-header2 li:hover ul{
+        display: block;
+    }
 </style>
 
 <body>
     <header id="site-header">
         <nav>
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a>
-                <ul >
-                    <li><a href="#">Servicio 1</a></li>
-                    <li><a href="#">Servicio 2</a></li>
-                    <li><a href="#">Servicio 3</a></li>
-                  </ul>
-              </ul></li>
-           
-        </nav>
-      </header>
+            <ul id="site-header2">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a>
+                    <ul>
+                        <li><a href="#">Servicio 1</a></li>
+                        <li><a href="#">Servicio 2</a></li>
+                        <li><a href="#">Servicio 3</a></li>
+                    </ul>
+            </ul>
+            </li>
 
- 
+        </nav>
+    </header>
+
+
 </body>
+
 </html>
