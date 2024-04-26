@@ -25,16 +25,43 @@ body {
 .tele {
     width: 60%;
     height: 65%;
-    border: 1px solid gray;
+    background-color:  gray;
 }
 
 .mueble {
     width: 100%;
-    height: 35;
+    height: 35%;
     background-color: saddlebrown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .balda {
-    
+    width: 25%;
+    height: 50%;
+    background-color: white;  
 }
+
+.libros {
+    width: 50%;
+    height: 100%;
+    background: repeating-linear-gradient(90deg, blue, green, red, yellow);
+}
+
+
+/* Position */
+.centro {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.centro .tele {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 
