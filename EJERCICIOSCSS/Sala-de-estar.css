@@ -25,7 +25,7 @@ body {
 .tele {
     width: 60%;
     height: 65%;
-    background-color:  gray;
+    background-color: gray;
 }
 
 .mueble {
@@ -40,7 +40,7 @@ body {
 .balda {
     width: 25%;
     height: 50%;
-    background-color: white;  
+    background-color: white;
 }
 
 .libros {
@@ -63,5 +63,3 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
 }
-
-
