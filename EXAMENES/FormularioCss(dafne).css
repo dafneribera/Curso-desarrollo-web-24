@@ -8,8 +8,7 @@
 }
 
 #caja {
-    width: 800px;
-    height: 600px;
+    width: 100%;
     background-color: blue;
     margin: auto;
     padding: 40px;
@@ -59,26 +58,26 @@ header div {
 }
 
 #cuchara {
-    width: 90%;
+    width: 50%;
     display: block;
     margin: 10px auto;
 }
 
-#flecha {
-    width: 100px;
+#linea {
+    width: 95px;
     position: relative;
     left: 50%;
 }
 
 form {
     position: relative;
-    left: 65%;
+    left:65%;
     bottom: 80px;
 }
 
 h3,
 label {
-    font-weight: 100;
+    font-weight: 100%;
     color: white;
     margin: 10px 0;
     font-size: 14px;
