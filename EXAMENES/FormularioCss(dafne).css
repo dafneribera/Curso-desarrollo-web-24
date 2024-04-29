@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+
+#caja {
+    width: 800px;
+    height: 600px;
+    background-color: blue;
+    margin: auto;
+    padding: 40px;
+}
+
+#site-header {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#site-header img {
+    width: 80px;
+    margin-bottom: -8px;
+}
+
+#site-header p {
+    justify-content: center;
+    font-size: 13px;
+}
+
+header ul {
+    display: flex;
+    text-align: center;
+}
+
+header ul li {
+    display: flex;
+    align-items: end;
+    padding: 5px, 0;
+}
+
+header ul li a {
+    padding: 0 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.select {
+    border-bottom: 8px solid white;
+    margin-bottom: -8px;
+}
+
+header div {
+    margin-bottom: -10px;
+    margin-right: 50px;
+}
+
+/* Main */
+
+#cuchara {
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+}
+
+#flecha {
+    width: 100px;
+    position: relative;
+    left: 50%;
+}
+
+form {
+    position: relative;
+    left: 65%;
+    bottom: 80px;
+}
+
+h3,
+label {
+    font-weight: 100;
+    color: white;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+#email {
+    margin-top: 10px;
+}
+
+#email,
+#nombre {
+    background-color: rgb(89, 89, 234);
+    border: none;
+    padding: 5px;
+}
+
+#email::placeholder,
+#nombre::placeholder {
+    color: #333;
+}
+
+#enviar {
+    width: 120px;
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Css</title>
+    <link rel="stylesheet" href="FormularioCss(dafne).css">
+</head>
+
+<body>
+    <div id="caja">
+        <header id="site-header">
+            <div>
+                <img src="../img/logo.png" id="logo">
+                <p>Restaurante UXP | B125698746</p>
+            </div>
+            <ul>
+                <li class="select"><a href="">INICIO</a></li>
+                <li><a href="">QUIENES <br> SOMOS</a></li>
+                <li><a href="">TRABAJA CON <br> NOSOTROS</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACTO</a></li>
+            </ul>
+        </header>
+        <main id="site-main">
+            <img src="../IMG/Cuchara.png" id="cuchara">
+            <img src="../IMG/FtFlecha.png" id="flecha">
+            <form>
+                <h3>Registro</h3>
+                <input type="text" name="nombre" id="nombre" placeholder="nombre" class="bloque"> <br>
+                <input type="text" name="email" id="email" placeholder="email" class="bloque">
+                <h3>Comensales</h3>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>
+                <h3>Mesa</h3>
+                <input type="radio" name="mesa" id="interior"><label for="interior">Interior</label>
+                <input type="radio" name="mesa" id="exterior"><label for="exterior">Exterior</label> <br>
+                <input type="submit" name="enviar" id="enviar" value="ENVIAR" class="bloque">
+            </form>
+        </main>
+    </div>
+
+</body>
+
+</html>
