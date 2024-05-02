@@ -24,3 +24,7 @@ nav {
     color: black;
     margin-left: 10px;
 }
+
+#site-header nav a:hover {
+    color: deeppink;
+}
