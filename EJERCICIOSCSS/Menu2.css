@@ -14,8 +14,8 @@ nav {
     background-color: rgb(57, 53, 53);
 }
 
-a {
-    color: white;
+#site-header nav a {
+    color: pink;
     display: block;
-    padding: 25px;
+    padding: 30px;
 }
