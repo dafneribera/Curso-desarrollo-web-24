@@ -50,5 +50,10 @@ body{
 
 
 #site-header nav ul>li:nth-child(3):hover>ul{
-    display: block;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    right: 0;
+    display: flex;
+    padding: 20px 0;
 }
