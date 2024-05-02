@@ -19,3 +19,8 @@ nav {
     display: block;
     padding: 30px;
 }
+
+#site-header nav a>i {
+    color: black;
+    margin-left: 10px;
+}
