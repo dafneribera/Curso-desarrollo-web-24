@@ -38,3 +38,33 @@ nav {
     color: deeppink;
     cursor: pointer;
 }
+
+#site-nav ul li ul{
+    display: none;
+}
+
+#site-nav ul li:hover ul {
+    display: block;
+}
+
+#site-header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+
+}
+
+#site-header div a {
+    font-size: 1.2rem;
+    color: rgb(63, 60, 60);
+    font-weight: bold;
+}
+#site-header div span {
+font-size: 2rem;
+color: deeppink;
+}
+
+#site-header i {
+    display: none;
+}
