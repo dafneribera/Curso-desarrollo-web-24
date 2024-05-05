@@ -79,7 +79,7 @@ nav {
     }
 
     #site-nav {
-background-color: inherit;
+        background-color: inherit;
     }
 
     #site-header nav a {
@@ -94,12 +94,17 @@ background-color: inherit;
         background-color: inherit;
     }
 
-    #site-header ul>li>ul  {
+    #site-header ul li ul {
         background-color: #5c5c5c;
         position: absolute;
         top: 100%;
         right: 0;
         width: 100%;
+    }
+
+    #site-header #site-nav ul>li:hover>ul{
+        display: flex;
+        top: 100%;
     }
 
 
