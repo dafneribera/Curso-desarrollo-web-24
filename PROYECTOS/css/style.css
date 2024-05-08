@@ -1,13 +1,137 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
     list-style: none;
 }
 
-video {
+/*header*/
+
+#site-header img{
+    width: 80px;
+}
+
+#site-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10%;
+    align-items: center;
+}
+
+#site-header nav>ul{
+    display: flex;
+}
+
+#site-header ul a{
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+/*Flecha*/
+
+#site-header nav>ul>li{
+position: relative;
+margin: 0 20px;
+}
+
+#site-header nav ul li>i{
+    color: rgb(255, 174, 0);
+    position: absolute;
+    bottom: 150%;
+    opacity: 0;
+    left: 45%;
+}
+
+#site-header nav ul li>a:hover + i{
+    bottom: 100%;
+    opacity: 1;
+    transition: opacity 1s, bottom 1s;
+}
+
+#site-header nav ul li i{
+    color: rgb(255, 174, 0);
+}
+
+/*Acaba flecha*/
+
+#site-header nav ul li ul{
+   position: absolute;
+   top: 100%;
+   width: 100%;
+   right: 0;
+   padding-top: 10px;
+   display: none;
+}
+
+#site-header nav>ul li:hover ul{
+    display: block;
+}
+/* main */
+
+#index-main {
+    margin: 50px;
+    padding: 50px;
+    font-size: 2rem;
+}
+
+span {
+    margin: 0;
+    background-color: rgb(172, 108, 34);
+}
+
+span:hover {
+    margin: 0;
+    background-color: white;
+    transition: 1s;
+}
+
+#index-main section>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+#index-main article div{
+    color: black;
+}
+
+#index-main section>div article {
     width: 50%;
 }
-img {
-    width: 50%;
+
+img, video{
+    width: 100%;
+}
+
+#index-main article i {
+margin-left: 10px;
+color: rgb(255, 174, 0);
+translate: 0px;
+opacity: 1;
+}
+
+#index-main article p:hover {
+    color: rgb(255, 174, 0);
+    transition: color 0.8s;
+}
+
+#index-main article p:hover i {
+    transition: translate 1s, opacity 1s;
+    translate: 40px;
+    opacity: 0;
+}
+
+#index-main #boton a {
+   background-color: rgb(59, 33, 33);
+   color:  rgb(255, 174, 0);
+}
+
+/* #index-main #boton {
+    align-items: center;
+} */
+#index-main #boton a:hover {
+    background-color: white;
+    color: black;
+    transition: 2s;
 }
