@@ -127,11 +127,22 @@ opacity: 1;
    color:  rgb(255, 174, 0);
 }
 
-/* #index-main #boton {
-    align-items: center;
-} */
+ #index-main #boton{
+    justify-content: center;
+    margin:50px;
+} 
 #index-main #boton a:hover {
     background-color: white;
     color: black;
+    opacity: 2s;
     transition: 2s;
+}
+
+#site-aside {
+    margin: 50px;
+    text-align: center;
+}
+
+#site-footer {
+    text-align: center;
 }

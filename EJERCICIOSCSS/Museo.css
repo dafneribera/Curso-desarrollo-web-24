@@ -16,7 +16,7 @@ header {
     flex-direction: column;
     align-items: center;
 
-    background-image: ;
+    background-image: 100%;
     background-position: center;
     background-size: 200px;
     background-attachment: fixed;
@@ -48,4 +48,12 @@ header nav.izquierda div.logo a {
     margin: 3px;
     padding: 0 5px
     ;
+}
+
+header .inferior h1 {
+
+}
+
+header .inferior .linea {
+    width: ;
 }
