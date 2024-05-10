@@ -108,7 +108,7 @@
 #sobre-main .section2 div {
     display: flex;
     justify-content: space-between;
-    margin: 40px;
+    margin: 50px;
 }
 
 #sobre-main .section2 div p{
@@ -118,6 +118,27 @@
 #sobre-main .section2 img {
 width: 100%;
 }
+
+#sobre-main .section3 {
+    padding: 15%;
+    background-color: white;
+    color: black;
+}
+
+#sobre-main .section3 div i {
+    color: rgb(172, 108, 34);
+}
+
+#sobre-main .section3>div {
+    justify-content: space-between;
+    display: flex;
+    width: 25%;
+}
+
+#sobre-main .section3 div p{
+    width: 45%;
+}
+
 #site-footer {
     text-align: center;
     background-color: rgb(49, 46, 46);
