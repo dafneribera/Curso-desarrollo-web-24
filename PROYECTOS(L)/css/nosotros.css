@@ -96,7 +96,7 @@
 #sobre-main h2 {
     margin: 50px;
     color: black;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 #sobre-main .section2 {
@@ -108,13 +108,14 @@
 #sobre-main .section2 div {
     display: flex;
     justify-content: space-between;
+    margin: 40px;
 }
 
 #sobre-main .section2 div p{
     width: 45%;
 }
 
-#sobre-main .section2 div > img {
+#sobre-main .section2 img {
 width: 100%;
 }
 #site-footer {
