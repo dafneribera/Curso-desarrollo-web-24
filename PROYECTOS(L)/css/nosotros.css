@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -8,22 +8,22 @@
 
 /*header*/
 
-#site-header img{
+#site-header img {
     width: 80px;
 }
 
-#site-header{
+#site-header {
     display: flex;
     justify-content: space-between;
     padding: 25px 10%;
     align-items: center;
 }
 
-#site-header nav>ul{
+#site-header nav>ul {
     display: flex;
 }
 
-#site-header ul a{
+#site-header ul a {
     color: gray;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -32,12 +32,12 @@
 
 /*Flecha*/
 
-#site-header nav>ul>li{
-position: relative;
-margin: 0 20px;
+#site-header nav>ul>li {
+    position: relative;
+    margin: 0 20px;
 }
 
-#site-header nav ul li>i{
+#site-header nav ul li>i {
     color: rgb(255, 174, 0);
     position: absolute;
     bottom: 150%;
@@ -45,30 +45,31 @@ margin: 0 20px;
     left: 45%;
 }
 
-#site-header nav ul li>a:hover + i{
+#site-header nav ul li>a:hover+i {
     bottom: 100%;
     opacity: 1;
     transition: opacity 1s, bottom 1s;
 }
 
-#site-header nav ul li i{
+#site-header nav ul li i {
     color: rgb(255, 174, 0);
 }
 
 /*Acaba flecha*/
 
-#site-header nav ul li ul{
-   position: absolute;
-   top: 100%;
-   width: 100%;
-   right: 0;
-   padding-top: 10px;
-   display: none;
+#site-header nav ul li ul {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    right: 0;
+    padding-top: 10px;
+    display: none;
 }
 
-#site-header nav>ul li:hover ul{
+#site-header nav>ul li:hover ul {
     display: block;
 }
+
 /* main */
 
 #sobre-main h1 {
@@ -91,7 +92,7 @@ margin: 0 20px;
 
 #site-footer div>a {
     padding: 20px;
-    margin:10px;
+    margin: 10px;
     display: inline-block;
     border: 2px;
     color: gray;
@@ -100,7 +101,7 @@ margin: 0 20px;
 }
 
 #site-footer div>a:hover {
-    color:rgb(172, 108, 34);
+    color: rgb(172, 108, 34);
     border-bottom: 2px solid rgb(172, 108, 34);
 }
 
