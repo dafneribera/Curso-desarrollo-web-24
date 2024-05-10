@@ -73,16 +73,25 @@
 /* main */
 
 #sobre-main h1 {
+    margin: ;
     color: rgb(172, 108, 34);
+    font-size: 4rem;
 }
 
 #sobre-main .section1 {
-    display: flex;
     padding: 15%;
     background-color: rgb(49, 46, 46);
     color: white;
 }
 
+#sobre-main .section1 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sobre-main .section1 div p{
+    width: 45%;
+}
 
 #site-footer {
     text-align: center;
