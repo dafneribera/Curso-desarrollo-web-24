@@ -73,9 +73,9 @@
 /* main */
 
 #sobre-main h1 {
-    margin: ;
+    margin: 50px;
     color: rgb(172, 108, 34);
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 #sobre-main .section1 {
@@ -93,6 +93,30 @@
     width: 45%;
 }
 
+#sobre-main h2 {
+    margin: 50px;
+    color: black;
+    font-size: 5rem;
+}
+
+#sobre-main .section2 {
+    padding: 15%;
+    background-color: white;
+    color: black;
+}
+
+#sobre-main .section2 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sobre-main .section2 div p{
+    width: 45%;
+}
+
+#sobre-main .section2 div > img {
+width: 100%;
+}
 #site-footer {
     text-align: center;
     background-color: rgb(49, 46, 46);
