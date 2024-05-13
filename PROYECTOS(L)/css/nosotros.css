@@ -121,19 +121,24 @@ margin-top: 20px;
 }
 
 #sobre-main .section3 {
-    padding: 15%;
+    padding:100px 10%;
     background-color: white;
     color: black;
 }
 
+#sobre-main .section3 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
 #sobre-main .section3 div i {
     color: rgb(172, 108, 34);
+    
 }
 
 #sobre-main .section3>div {
     justify-content: space-between;
     display: flex;
-    width: 25%;
 }
 
 #sobre-main .section3 div p{
