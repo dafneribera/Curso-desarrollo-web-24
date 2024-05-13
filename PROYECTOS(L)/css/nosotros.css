@@ -73,7 +73,7 @@
 /* main */
 
 #sobre-main h1 {
-    margin: 50px;
+    padding: 20px;
     color: rgb(172, 108, 34);
     font-size: 5rem;
 }
@@ -93,8 +93,11 @@
     width: 45%;
 }
 
+#sobre-main .section1 div p:first-of-type{
+    border-bottom: 2px solid rgb(172, 108, 34);
+}
+
 #sobre-main h2 {
-    margin: 50px;
     color: black;
     font-size: 3rem;
 }
@@ -133,7 +136,6 @@ margin-top: 20px;
 
 #sobre-main .section3 div i {
     color: rgb(172, 108, 34);
-    
 }
 
 #sobre-main .section3>div {
@@ -141,8 +143,9 @@ margin-top: 20px;
     display: flex;
 }
 
+
 #sobre-main .section3 div p{
-    width: 45%;
+    width: 65%;
 }
 
 #site-footer {
