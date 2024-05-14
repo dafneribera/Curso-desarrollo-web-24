@@ -60,3 +60,17 @@ aside li {
     border-bottom: 2px solid black;
     font-weight: bold;
 }
+
+footer {
+    background-color: deeppink;
+    width: 70%;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: ;
+}
