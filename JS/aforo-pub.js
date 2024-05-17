@@ -17,11 +17,16 @@ contador--;
 console.log("Número de personas: " + contador);
 
 //Segundo caso: Llega un cliente
-console.log('Sale un cliente');
+console.log('Llega un cliente');
 
-if (contador = 20)  {
+contador = 20
+if (contador == 20)  {
 //Si se cumple la condición se ejecuta:
-console.log('Esperar a que haya algún hueco');
+console.log('Aforo completo, espera a que salga alguien');
+
 } else {
 //Si no se cumple la condición se ejecuta este:
+console.log('El cliente entra');
+contador++;
+console.log("Número de personas: " + contador);
 }
