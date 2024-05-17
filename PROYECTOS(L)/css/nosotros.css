@@ -139,7 +139,7 @@ margin-top: 20px;
 }
 
 #sobre-main .section3>div {
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
 }
 
