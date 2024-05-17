@@ -6,6 +6,7 @@ contador = 0;
 
 //Entra un cliente
 contador++;
-contador = contador + 1;
+contador;
 
+console.log('contador');
 console.log(contador);
