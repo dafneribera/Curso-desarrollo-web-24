@@ -18,4 +18,9 @@ console.log(6-19);
 console.log(edad-15);
 
 console.log(4*8);
-console.log(4*8);
+console.log(edad*2);
+
+console.log(8/3);
+console.log(edad/6);
+
+console.log(8%2);
