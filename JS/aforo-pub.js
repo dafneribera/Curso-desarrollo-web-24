@@ -21,7 +21,7 @@ console.log('Sale un cliente');
 
 if (contador = 20)  {
 //Si se cumple la condición se ejecuta:
-
+console.log('Esperar a que haya algún hueco');
 } else {
 //Si no se cumple la condición se ejecuta este:
 }
