@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduccion a java script</title>
+</head>
+
+<body>
+    <h1>Java script</h1>
+
+    <h2>Mi primer script</h2>
+
+    <button type="button" onclick="document.getElementById('prueba1').innerHTML = Date()">Pulsa aqui para mostras fecha
+        y hora
+    </button>
+    <p id="prueba1"></p>
+    <hr>
+    <button
+        onclick="document.getElementById('prueba2').innerHTML = 'El mensaje que os de la gana, lo que querrais'">Pulsa
+        para recibir un mensaje perzonalizado</button>
+
+    <p id="prueba2"></p>
+
+<hr>
+
+<h2>Cambiar atributos con JavaScript</h2>
+
+<p>JavaScript tiene la posibilidad de cambiar los valores de los atributos de los elementos HTML.</p>
+<p>En este caso, JavaScript cambiará el valor del atributo src (source u origen) de la imagén.</p>
+
+<img  id="bombilla"  src="../dafne/img/luzapagada.gif" alt="">
+
+<button onclick="document.getElementById('bombilla').src = 
+'../dafne/img/luzencendida.gif'">Encender la luz</button>
+
+<button onclick="document.getElementById('bombilla').src = 
+'../dafne/img/luzapagada.gif'">Apagar la luz</button>
+
+<hr>
+
+<h2>Cambiar estilos CSS con JavaScript</h2>
+
+<p id="prueba-css">JavaScript puede cambiar el estilo de un elemento HTML.</p>
+
+<button onclick="document.getElementById('prueba-css').style.fontSize='3rem'">Púlsame!</button>
+<button onclick="document.getElementById('prueba-css').style.color='green'">Color de letra</button>
+<button onclick="document.getElementById('prueba-css').style.background='grey'">Color de fondo</button>
+
+<hr>
+
+<h2>Ocultar/Mostrar elementos HTML con JavaScript</h2>
+
+<button onclick="document.getElementById('prueba-display').style.display='none'">Ocultar</button>
+<button onclick="document.getElementById('prueba-display').style.display='block'">Mostrar</button>
+<button onclick="document.getElementById('prueba-display').style.visibility='hidden'">Invisivilizar</button>
+<button onclick="document.getElementById('prueba-display').style.visibility='visible'">Visivilizar</button>
+
+<p id="prueba-display">JavaScript tiene la posibilidad de ocultar y mostrar elementos HTML.</p>
+
+
+
+</body>
+
+</html>
